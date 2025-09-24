@@ -1,0 +1,28 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "fdfde95e-19e7-4ab4-bdf5-e5c7ee835b6b",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "GDriveFolderID": {
+            "type": "string"
+          },
+          "MiroBoardID": {
+            "type": "string"
+          },
+          "SheetID": {
+            "type": "string"
+          },
+          "CreativeName": {
+            "type": "string"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}

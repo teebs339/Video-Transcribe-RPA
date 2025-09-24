@@ -1,0 +1,6 @@
+{
+  "Name": "Video Transcribe RPA",
+  "ProjectType": "Process",
+  "Description": "Download video form FB & Magicbrief. Convert into audio for whisper-1 and then get freeze frames. Upload to Google Drive & Miro",
+  "MainFile": "Main.xaml"
+}
